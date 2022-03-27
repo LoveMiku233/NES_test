@@ -77,8 +77,8 @@ private:
 	Bus* bus = nullptr;
 	void write(uint16_t addr, uint8_t data);
 	uint8_t read(uint16_t addr);
-	uint8_t getFlag(FLAGS f);
-	void setFlag(FLAGS f, bool v);
+	uint8_t GetFlag(FLAGS f);
+	void SetFlag(FLAGS f, bool v);
 
 	struct INSTRUCTION
 	{
